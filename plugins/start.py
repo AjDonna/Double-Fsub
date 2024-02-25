@@ -87,7 +87,7 @@ async def start_command(client: Client, message: Message):
         ],
         [
             InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/anime_bash_offical"),
-            InlineKeyboardButton("completed", url="https://t.me/Completed_Bash")
+            InlineKeyboardButton("ongoing", url="https://t.me/Ongoing_Anime_bash")
         ],
         [
             InlineKeyboardButton("💥ᴄʟᴏꜱᴇ💥", callback_data="close")
