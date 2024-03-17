@@ -86,7 +86,7 @@ async def start_command(client: Client, message: Message):
             InlineKeyboardButton("ʜᴇʟᴘ​", callback_data="help")
         ],
         [
-            InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/anime_bash_offical"),
+            InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/anime_bash"),
             InlineKeyboardButton("ongoing", url="https://t.me/Ongoing_Anime_bash")
         ],
         [
@@ -125,7 +125,7 @@ async def not_joined(client: Client, message: Message):
     buttons = [
         [
             InlineKeyboardButton(text="⚡Join channel 1⚡", url=client.invitelink),
-            InlineKeyboardButton(text="⚡Join channel 2⚡", url=f"https://t.me/addlist/mbKoISB970VkYzM1"),
+            InlineKeyboardButton(text="⚡Join channel 2⚡", url=client.invitelink2"),
         ]
     ]
     try:
