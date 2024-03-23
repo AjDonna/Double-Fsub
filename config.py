@@ -19,13 +19,13 @@ APP_ID = int(os.environ.get("APP_ID", "25861140"))
 API_HASH = os.environ.get("API_HASH", "8862029e483dbc8c9b7f5fbadf2d9966")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "1735152469"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002120285630"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1735152469"))
 
 #Port
-PORT = os.environ.get("PORT", "1200")
+PORT = os.environ.get("PORT", "1300")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://animebash212:animebash212@cluster0.lhtmajy.mongodb.net/?retryWrites=true&w=majority")
