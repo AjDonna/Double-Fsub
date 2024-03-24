@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6977438234:AAGrxdpWzObkQNnGIRRJXKGrCGDwBKpmTv4")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7149250732:AAGbGHNiMbdbNccKCUuJDMq1QS8P7A1J3EI")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "25861140"))
@@ -25,15 +25,15 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001928248288"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "1735152469"))
 
 #Port
-PORT = os.environ.get("PORT", "1600")
+PORT = os.environ.get("PORT", "1700")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://animebash212:animebash212@cluster0.lhtmajy.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Toonpro12:animebash@cluster0.e6hpn8l.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1001998599951"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002086686149"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1001715616229"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001974461884"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
