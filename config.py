@@ -38,15 +38,7 @@ FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001974461884"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b> Kᴏɴɴɪᴄʜɪᴡᴀ {first} 👋 </b>\n\nsolo leveling Movie 👇
-
-480p -> https://t.me/Tanjiro_Bash_Bot?start=Z2V0LTMzNzA4MjA1MDQ5Njc0NTY
-
-720p -> https://t.me/Tanjiro_Bash_Bot?start=Z2V0LTMzNzE4MjI1MzI0NjU5NjA
-
-1080p -> https://t.me/Tanjiro_Bash_Bot?start=Z2V0LTMzNzM4MjY1ODc0NjI5Njg
-
-HDrip -> https://t.me/Tanjiro_Bash_Bot?start=Z2V0LTMzNzI4MjQ1NTk5NjQ0NjQ")
+START_MSG = os.environ.get("START_MESSAGE", "<b> Kᴏɴɴɪᴄʜɪᴡᴀ {first} 👋 </b>\n\nI ᴀᴍ ᴀ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ @Anime_Bash")
 try:
     ADMINS=[6376328008]
     for x in (os.environ.get("ADMINS", "7211073530 1735152469 1119579816 1632095203 6315792232 5350104697").split()):
