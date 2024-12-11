@@ -38,7 +38,7 @@ FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001974461884"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b> Kᴏɴɴɪᴄʜɪᴡᴀ {first} 👋 </b>\n\nSolo leveling Movie 👇
+START_MSG = os.environ.get("START_MESSAGE", "<b> Kᴏɴɴɪᴄʜɪᴡᴀ {first} 👋 </b>\n\n Solo leveling Movie 👇
 
 480p -> https://t.me/Tanjiro_Bash_Bot?start=Z2V0LTMzNzA4MjA1MDQ5Njc0NTY
 
